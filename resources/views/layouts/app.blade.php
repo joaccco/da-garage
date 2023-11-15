@@ -29,6 +29,7 @@
 
             <!-- Page Content -->
             <main class="-z-10">
+                @livewire('banner')
                 {{ $slot }}
             </main>
         </div>
